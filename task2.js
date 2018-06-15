@@ -13,6 +13,8 @@ function read_params() {
 function fib(n) {
     if (n < 0) {
         return NaN;
+    } else if (n == 0) {
+        return 0;
     }
     var a = 1, b = 1;
     for (i = 3; i <= n; i++) {
